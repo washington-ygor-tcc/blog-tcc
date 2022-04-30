@@ -1,0 +1,90 @@
+baseURL: https://linux.ime.usp.br/~ygortavela/mac0499/
+title: Trabalho de Formatura Supervisionado
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: Trabalho de Formatura Supervisionado
+  description: "Neste blog serão reunidos informações relacionadas ao trabalho de pesquisa"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Me
+  # author: ["Me", "You"] # multiple authors
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Home"
+    iconHeight: 35
+
+  homeInfoParams:
+    Title: "Trabalho de Formatura Supervisionado"
+    Content: |
+      # Explorando Estilos Arquiteturais para Servir Sistemas Inteligentes
+      &nbsp;
+
+      Washington Luiz Meireles de Lima (luiz.meireles@usp.br)
+
+      Ygor Tavela Alves da Silva (ygor_tavela@usp.br)
+
+      &nbsp;
+
+      ### Orientadores: 
+
+      &nbsp;
+
+      Prof. Dr. Alfredo Goldman
+
+      Ms. Renato Cordeiro Ferreira
+
+  socialIcons:
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+menu:
+  main:
+    - identifier: proposta
+      name: proposta
+      url: /proposta.pdf
+      weight: 10
+    - identifier: repo
+      name: repositório
+      url: https://gitlab.com/tcc.washington.ygor/tcc
+      weight: 20

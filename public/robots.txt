@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://linux.ime.usp.br/~ygortavela/mac0499/sitemap.xml
