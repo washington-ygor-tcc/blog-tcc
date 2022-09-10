@@ -83,7 +83,11 @@ menu:
       name: proposta
       url: /proposta.pdf
       weight: 10
+    - identifier: monografia
+      name: monografia
+      url: /monografia.pdf
+      weight: 20
     - identifier: repo
       name: repositório
       url: https://github.com/washington-ygor-tcc
-      weight: 20
+      weight: 30
