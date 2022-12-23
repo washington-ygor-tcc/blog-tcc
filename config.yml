@@ -79,15 +79,23 @@ params:
 
 menu:
   main:
-    - identifier: proposta
+    - identifier: proposal
       name: proposta
       url: /proposta.pdf
       weight: 10
-    - identifier: monografia
+    - identifier: monography
       name: monografia
       url: /monografia.pdf
       weight: 20
-    - identifier: repo
+    - identifier: poster
+      name: poster
+      url: /poster.pdf
+      weight: 30
+    - identifier: presentation
+      name: apresentação
+      url: https://docs.google.com/presentation/d/15TytmSxHKKd84-LWGIclpwmqTwTjWJcJv8mEqP07fug/edit?usp=sharing
+      weight: 40
+    - identifier: repository
       name: repositório
       url: https://github.com/washington-ygor-tcc
-      weight: 30
+      weight: 50
