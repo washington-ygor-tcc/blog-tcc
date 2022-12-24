@@ -58,7 +58,7 @@ params:
 
       Washington Luiz Meireles de Lima (luiz.meireles@usp.br)
 
-      Ygor Tavela Alves da Silva (ygor_tavela@usp.br)
+      Ygor Tavela Alves (ygor_tavela@usp.br)
 
       &nbsp;
 
@@ -91,11 +91,15 @@ menu:
       name: poster
       url: /poster.pdf
       weight: 30
+    - identifier: subjective
+      name: considerações pessoais
+      url: /subjective.pdf
+      weight: 40
     - identifier: presentation
       name: apresentação
       url: https://docs.google.com/presentation/d/15TytmSxHKKd84-LWGIclpwmqTwTjWJcJv8mEqP07fug/edit?usp=sharing
-      weight: 40
+      weight: 50
     - identifier: repository
       name: repositório
       url: https://github.com/washington-ygor-tcc
-      weight: 50
+      weight: 60
