@@ -70,6 +70,14 @@ params:
 
       Ms. Renato Cordeiro Ferreira
 
+      &nbsp;
+
+      ### Resumo: 
+
+      &nbsp;
+
+      Sistemas Inteligentes fazem a ponte entre usuários e o Aprendizado de Máquina (ML) para atingir objetivos significativos. Em particular, a inteligência do ML evolui e melhora com o tempo, analisando como os usuários interagem com o sistema. Tais sistemas possuem três eixos de mudança: código, dados e modelo. Isso amplia a complexidade de desenvolvimento se comparado a sistemas tradicionais, o que traz  à tona novos desafios. Dentre eles, está a escalabilidade, que engloba as etapas de coleta de dados, engenharia de características (_features_), reinamento do modelo de ML, e o serviço do modelo de ML em produção. Nessa última etapa, uma decisão arquitetural importante é a escolha do padrão de comunicação utilizado para servir o modelo, que pode ser classificado de acordo com o tipo de responsividade: síncrono ou assíncrono. No contexto de sistemas inteligentes, a escolha de um padrão de comunicação pode não se basear apenas em premissas já conhecidas do desenvolvimento de sistemas tradicionais. Por isso, o objetivo desta pesquisa é de explorar _trade-offs_ de diferentes padrões, em particular, a API RPC (síncrona) e a Mensageria (assíncrona).
+
   socialIcons:
 
   cover:
